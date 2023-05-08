@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Developer | Desafio 02</title>
+    <link rel="stylesheet" href="base.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <div class="brand">
+          <a href="./"><img src="img/logo.svg" alt="Logo Brain Care" /></a>
+        </div>
+        <ul>
+          <li><a href="./">Início</a></li>
+          <li><a href="./about.html">A Clínica</a></li>
+          <li><a href="./service.html">Horário de Atendimento</a></li>
+          <li><a href="./contact.html">Contato</a></li>
+        </ul>
+      </div>
+      <div class="main">
+        <div class="header">
+          <img
+            src="./img/img_04.jpg"
+            alt="Médico Psicologista em sua sala, atendento uma paciente."
+          />
+        </div>
+        <div class="content">
+          <h1>Contato</h1>
+          <h2>
+            Se você está procurando uma clínica de psicologia em Florianópolis,
+            entre em contato conosco na Brain Care.
+          </h2>
+          <p>
+            Teremos o prazer em agendar uma consulta para discutir como podemos
+            ajudá-lo(a) a alcançar seus objetivos de saúde mental.
+          </p>
+          <ul>
+            <li>
+              <h3>
+                Telefone:
+                <a
+                  target="_blank"
+                  href="http://wa.link/gx3bd7"
+                  rel="noopener noreferrer"
+                  >(48) 9999-9999</a
+                >
+              </h3>
+            </li>
+            <li>
+              <h3>
+                R. Presidente Coutinho, 579 <br />
+                Centro, Florianópolis - SC <br />
+                88015-231
+              </h3>
+            </li>
+          </ul>
+          <iframe
+            style="width: 100%; border: 0"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.084589077345!2d-48.54978932420507!3d-27.590906976249386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95273818900a06f7%3A0x2badd46d0bc03a22!2sCentro%20M%C3%A9dico%20Florian%C3%B3polis!5e0!3m2!1sen!2sbr!4v1683555789004!5m2!1sen!2sbr"
+            height="450"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <p>Se preferir, utilize o formulário abaixo.</p>
+          <form action="./" method="post">
+            <div class="field-wrapper">
+              <label for="name">Nome*</label>
+              <div>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Digite seu nome"
+                  required
+                />
+              </div>
+            </div>
+            <div class="field-wrapper">
+              <label for="email">E-mail*</label>
+              <div>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Digite seu melhor e-mail"
+                  required
+                />
+              </div>
+            </div>
+            <div class="field-wrapper">
+              <label for="subject">Assunto*</label>
+              <div>
+                <select name="subject" id="subject" required>
+                  <option value="">Escolha uma opção</option>
+                  <option value="Consulta">Agendar uma consulta</option>
+                  <option value="Dúvidas">Dúvidas sobre serviços</option>
+                  <option value="Portal do Paciente">Portal do Paciente</option>
+                  <option value="Críticas e sugestões">
+                    Críticas e sugestões
+                  </option>
+                </select>
+              </div>
+            </div>
+            <div class="field-wrapper">
+              <label for="message">Mensagem</label>
+              <div>
+                <textarea name="message" cols="50" rows="8" required></textarea>
+              </div>
+            </div>
+            <div class="field-wrapper">
+              <fieldset>
+                <legend>
+                  Você concorda com os
+                  <a href="#">termos e políticas de privacidade</a>?
+                </legend>
+                <input type="checkbox" name="consent" required value="sim" />
+                <label> Sim </label>
+              </fieldset>
+            </div>
+            <div>
+              <button style="border: 0" class="btn" type="submit">
+                Enviar
+              </button>
+              <button
+                style="border: 1px solid black"
+                class="btn-secondary"
+                type="reset"
+              >
+                Limpar
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <div class="footer">
+          <div class="brand-footer">
+            <a href="./"><img src="img/logo.svg" alt="Logo Brain Care" /></a>
+            <ul>
+              <li><a href="./">Início</a></li>
+              <li><a href="./about.html">A Clínica</a></li>
+              <li><a href="./service.html">Horário de Atendimento</a></li>
+              <li><a href="./contact.html">Contato</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
